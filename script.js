@@ -72,7 +72,7 @@
     let isTeamListOpen = true;
     let isDashboardListOpen = false;
 
-    // --- State Toggles ---
+    
 
     function toggleTeamList() {
       const list = document.getElementById('member-list');
@@ -96,17 +96,17 @@
       if (isDashboardListOpen) {
         list.classList.remove('collapsed');
         chevron.classList.remove('collapsed'); // In this context, NOT collapsed means pointing UP usually, but here collapsed is -90deg (right)
-        // Wait, styles say collapsed is -90deg. So removing collapsed class rotates it back to 0 (down).
+    
       } else {
         list.classList.add('collapsed');
         chevron.classList.add('collapsed');
       }
 
-      // Also activate dashboard mode
+      
       showDashboard();
     }
 
-    // --- Navigation Logic ---
+
 
     function showDashboard() {
       isDashboardActive = true;
@@ -120,13 +120,12 @@
       renderUI();
     }
 
-    // --- Rendering ---
 
     function renderUI() {
       const mainContent = document.getElementById('main-content');
       const dashboardHeader = document.getElementById('dashboard-header');
       
-      // 1. Toggle Main Content Mode
+      
       if (isDashboardActive) {
         mainContent.classList.add('dashboard-mode');
         dashboardHeader.classList.add('active-link');
@@ -212,9 +211,6 @@
       `;
     }
 
-    // Initial render
-    // Initialize Dashboard as collapsed to match "black void" requirement on first load or maintain profile view?
-    // User didn't specify initial state, but usually profiles are viewed first.
-    // Dashboard list is collapsed by default in HTML.
     renderUI();
+
 
