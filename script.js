@@ -4,7 +4,7 @@
         name: "Kaith Marky Duro", 
         role: "Developer", 
         age: "20",
-        year: "2rd Year",
+        year: "2nd Year",
         major: "BS Information Technology",
         college: "Bestlink College of the Philippines",
         description: "Passionate developer who loves solving complex problems with code. Always exploring new technologies and frameworks.",
@@ -30,7 +30,7 @@
         name: "Tobey D. Marco", 
         role: "Developer", 
         age: "21",
-        year: "2rd Year",
+        year: "2nd Year",
         major: "BS Information Technology",
         college: "Bestlink College of the Philippines",
         description: "Natural leader with strong organizational skills. Ensures smooth team coordination and project delivery.",
@@ -56,12 +56,12 @@
         name: "Eugene Ombrog", 
         role: "Developer", 
         age: "22",
-        year: "4th Year",
+        year: "2nd Year",
         major: "BS Information Technology",
         college: "Bestlink College of the Philippines",
         description: "Technical expert in system management and infrastructure. Ensures all systems run smoothly and securely.",
         avatar: "EO",
-        email: "eombrog@university.edu",
+        email: "ombrogeugene@gmail.com",
         phone: "+63 917 567 8901",
         website: "eugene-sys.net"
       }
@@ -212,6 +212,7 @@
     }
 
     renderUI();
+
 
 
 
