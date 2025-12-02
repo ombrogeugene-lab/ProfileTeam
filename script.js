@@ -56,7 +56,7 @@
         name: "Eugene Ombrog", 
         role: "Developer", 
         age: "22",
-        year: "4th Year",
+        year: "2th Year",
         major: "BS Information Technology",
         college: "Bestlink College of the Philippines",
         description: "Technical expert in system management and infrastructure. Ensures all systems run smoothly and securely.",
@@ -212,6 +212,7 @@
     }
 
     renderUI();
+
 
 
 
